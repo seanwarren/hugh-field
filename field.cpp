@@ -1,5 +1,5 @@
-//#define __SSE2__ 1
-//#define __AVX__ 1
+#define __SSE2__ 1
+#define __AVX__ 1
 
 #define M_PI 3.14159265358979323846264338327950288
 
@@ -8,7 +8,6 @@
 #include <chrono>
 #include <iostream>
 #include <random>
-#include <boost/align/aligned_allocator.hpp>
 #include <sleef.h>
 #include <omp.h>
 
